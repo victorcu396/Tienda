@@ -613,7 +613,7 @@ public class Biblioteca2025 {
     }
     private void libroMaxPrest() {
         
-        int maxPrestamos = 0;
+/**        int maxPrestamos = 0;
         Libro libroMasPrestado = null;
 
         for (Libro libro : libros) {
@@ -641,13 +641,14 @@ public class Biblioteca2025 {
         } else {
             System.out.println("No hay préstamos registrados");
         }
+*/
     }
 
     private void usuarioMaxLector() {
-        int maxLector = 0;
-        Usuario usuarioMasLector = null;
+ /**       int maxLector = 0;
+       Usuario usuarioMasLector = null;
 
-        for (Usuario usuario : usuarios) {
+       for (Usuario usuario : usuarios) {
             int contador = 0;
             // Contar en préstamos activos
             for (Prestamo p : prestamos) {
@@ -672,7 +673,7 @@ public class Biblioteca2025 {
         } else {
             System.out.println("No hay lectores registrados");
         }
-       
+ */      
     }
 //</editor-fold>
     
