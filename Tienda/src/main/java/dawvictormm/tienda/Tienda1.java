@@ -14,7 +14,8 @@ import java.util.Scanner;
  * @author alu16d
  */
 public class Tienda1 {
-
+//Tienda que haremos nueva
+    
     Scanner sc=new Scanner(System.in);
     private ArrayList<Pedido> pedidos;
     private HashMap <String, Articulo> articulos;
